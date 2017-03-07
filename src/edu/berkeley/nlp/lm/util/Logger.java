@@ -12,7 +12,6 @@ import java.util.Stack;
  * @author adampauls
  * 
  */
-@SuppressWarnings("ucd")
 public class Logger
 {
 
@@ -76,7 +75,6 @@ public class Logger
 	 * @author Aria Haghighi
 	 * 
 	 */
-	@SuppressWarnings("ucd")
 	public static class SystemLogger implements LogInterface
 	{
 
@@ -223,7 +221,6 @@ public class Logger
 	 * @author adampauls
 	 * 
 	 */
-	@SuppressWarnings("ucd")
 	public static class NullLogger implements LogInterface
 	{
 
@@ -276,7 +273,6 @@ public class Logger
 	 * 
 	 * 
 	 */
-	@SuppressWarnings("ucd")
 	public static class CompoundLogger implements LogInterface
 	{
 		private final LogInterface[] loggers;

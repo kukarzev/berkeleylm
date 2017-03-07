@@ -1,23 +1,16 @@
 package edu.berkeley.nlp.lm.io;
 
-import java.io.File;
-import java.io.PrintWriter;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Random;
-
 import edu.berkeley.nlp.lm.ArrayEncodedNgramLanguageModel;
 import edu.berkeley.nlp.lm.ConfigOptions;
-import edu.berkeley.nlp.lm.ContextEncodedNgramLanguageModel.LmContextInfo;
 import edu.berkeley.nlp.lm.WordIndexer;
-import edu.berkeley.nlp.lm.collections.Counter;
 import edu.berkeley.nlp.lm.map.HashNgramMap;
 import edu.berkeley.nlp.lm.map.NgramMap.Entry;
 import edu.berkeley.nlp.lm.util.Logger;
 import edu.berkeley.nlp.lm.util.LongRef;
-import edu.berkeley.nlp.lm.util.StrUtils;
 import edu.berkeley.nlp.lm.values.KneserNeyCountValueContainer;
 import edu.berkeley.nlp.lm.values.KneserNeyCountValueContainer.KneserNeyCounts;
 import edu.berkeley.nlp.lm.values.ProbBackoffPair;
@@ -152,7 +145,7 @@ public class KneserNeyLmReaderCallback<W> implements NgramOrderedLmReaderCallbac
 	 * @param value
 	 * @param words
 	 */
-	public void addNgram(final int[] ngram, final int startPos, final int endPos, final LongRef value, @SuppressWarnings("unused") final String words, final boolean justLastWord,
+	public void addNgram(final int[] ngram, final int startPos, final int endPos, final LongRef value, final String words, final boolean justLastWord,
 		final long[][] scratch) {
 
 		final KneserNeyCounts scratchCounts = new KneserNeyCounts();

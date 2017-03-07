@@ -39,7 +39,7 @@ public class GoogleLmReader<W> implements LmReader<LongRef, NgramOrderedLmReader
 
 	private final WordIndexer<W> wordIndexer;
 
-	public GoogleLmReader(final String rootDir, final WordIndexer<W> wordIndexer, @SuppressWarnings("unused") final ConfigOptions opts) {
+	public GoogleLmReader(final String rootDir, final WordIndexer<W> wordIndexer, final ConfigOptions opts) {
 		this.wordIndexer = wordIndexer;
 		ngramDirectories = new File(rootDir).listFiles(new FilenameFilter()
 		{

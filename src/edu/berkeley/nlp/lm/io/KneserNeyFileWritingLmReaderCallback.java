@@ -2,20 +2,12 @@ package edu.berkeley.nlp.lm.io;
 
 import java.io.File;
 import java.io.PrintWriter;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-import edu.berkeley.nlp.lm.ConfigOptions;
-import edu.berkeley.nlp.lm.ContextEncodedNgramLanguageModel.LmContextInfo;
 import edu.berkeley.nlp.lm.WordIndexer;
-import edu.berkeley.nlp.lm.map.HashNgramMap;
-import edu.berkeley.nlp.lm.map.NgramMap.Entry;
 import edu.berkeley.nlp.lm.util.Logger;
-import edu.berkeley.nlp.lm.util.LongRef;
 import edu.berkeley.nlp.lm.util.StrUtils;
-import edu.berkeley.nlp.lm.values.KneserNeyCountValueContainer;
-import edu.berkeley.nlp.lm.values.KneserNeyCountValueContainer.KneserNeyCounts;
 import edu.berkeley.nlp.lm.values.ProbBackoffPair;
 
 /**

@@ -1,11 +1,7 @@
 package edu.berkeley.nlp.lm;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-
-import edu.berkeley.nlp.lm.collections.Counter;
 
 /**
  * Default implementation of all NGramLanguageModel functionality except

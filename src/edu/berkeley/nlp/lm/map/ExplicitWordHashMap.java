@@ -3,7 +3,6 @@ package edu.berkeley.nlp.lm.map;
 import java.io.Serializable;
 import java.util.Iterator;
 
-import edu.berkeley.nlp.lm.array.CustomWidthArray;
 import edu.berkeley.nlp.lm.array.LongArray;
 import edu.berkeley.nlp.lm.collections.Iterators;
 import edu.berkeley.nlp.lm.util.Annotations.PrintMemoryCount;

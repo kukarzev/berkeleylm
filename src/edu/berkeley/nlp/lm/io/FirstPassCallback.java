@@ -1,14 +1,8 @@
 package edu.berkeley.nlp.lm.io;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.Map.Entry;
-
 import edu.berkeley.nlp.lm.array.LongArray;
-import edu.berkeley.nlp.lm.collections.Counter;
-import edu.berkeley.nlp.lm.collections.Indexer;
 import edu.berkeley.nlp.lm.collections.LongToIntHashMap;
 import edu.berkeley.nlp.lm.collections.LongRepresentable;
 import edu.berkeley.nlp.lm.util.Logger;

@@ -114,6 +114,7 @@ public class IOUtils
 	 * @return
 	 * @throws FileNotFoundException
 	 */
+	@SuppressWarnings("resource")
 	private static BufferedInputStream getBufferedInputStream(final File path) throws FileNotFoundException {
 		//		return new BufferedInputStream((new FileInputStream(path)));
 		return new BufferedInputStream(Channels.newInputStream(new FileInputStream(path).getChannel()));

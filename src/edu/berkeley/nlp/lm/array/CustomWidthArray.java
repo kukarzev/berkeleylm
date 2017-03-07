@@ -1,6 +1,5 @@
 package edu.berkeley.nlp.lm.array;
 
-import java.io.ObjectStreamException;
 import java.io.Serializable;
 
 /**

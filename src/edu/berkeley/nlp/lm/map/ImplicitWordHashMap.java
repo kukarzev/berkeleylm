@@ -8,7 +8,6 @@ import edu.berkeley.nlp.lm.array.LongArray;
 import edu.berkeley.nlp.lm.bits.BitUtils;
 import edu.berkeley.nlp.lm.collections.Iterators;
 import edu.berkeley.nlp.lm.util.Annotations.PrintMemoryCount;
-import edu.berkeley.nlp.lm.util.Logger;
 import edu.berkeley.nlp.lm.util.MurmurHash;
 
 /**

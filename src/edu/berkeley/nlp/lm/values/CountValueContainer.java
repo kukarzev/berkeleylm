@@ -1,9 +1,6 @@
 package edu.berkeley.nlp.lm.values;
 
 import edu.berkeley.nlp.lm.array.CustomWidthArray;
-import edu.berkeley.nlp.lm.bits.BitList;
-import edu.berkeley.nlp.lm.bits.BitStream;
-import edu.berkeley.nlp.lm.collections.Indexer;
 import edu.berkeley.nlp.lm.collections.LongToIntHashMap;
 import edu.berkeley.nlp.lm.collections.LongToIntHashMap.Entry;
 import edu.berkeley.nlp.lm.util.Annotations.OutputParameter;

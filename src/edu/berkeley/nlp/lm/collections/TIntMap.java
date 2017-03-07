@@ -33,7 +33,7 @@ import java.util.Set;
  * @author Adam Pauls
  * @author Percy Liang
  */
-@SuppressWarnings({ "ucd", "rawtypes" })
+@SuppressWarnings({ "rawtypes" })
 public class TIntMap<T extends Comparable> extends AbstractTMap<T> implements Iterable<TIntMap<T>.Entry>, Serializable
 {
 	protected static final long serialVersionUID = 42;

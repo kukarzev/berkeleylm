@@ -1,10 +1,5 @@
 package edu.berkeley.nlp.lm.map;
 
-import java.util.Iterator;
-
-import edu.berkeley.nlp.lm.array.CustomWidthArray;
-import edu.berkeley.nlp.lm.array.LongArray;
-
 interface HashMap
 {
 

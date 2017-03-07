@@ -6,10 +6,8 @@ import edu.berkeley.nlp.lm.map.ContextEncodedNgramMap;
 import edu.berkeley.nlp.lm.map.HashNgramMap;
 import edu.berkeley.nlp.lm.map.NgramMap;
 import edu.berkeley.nlp.lm.util.Annotations.OutputParameter;
-import edu.berkeley.nlp.lm.util.Logger;
 import edu.berkeley.nlp.lm.values.ProbBackoffPair;
 import edu.berkeley.nlp.lm.values.ProbBackoffValueContainer;
-import edu.berkeley.nlp.lm.values.UncompressedProbBackoffValueContainer;
 
 /**
  * Language model implementation which uses Kneser-Ney style backoff

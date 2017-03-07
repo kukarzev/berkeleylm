@@ -1,21 +1,10 @@
 package edu.berkeley.nlp.lm.values;
 
 import java.util.Arrays;
-import java.util.List;
-
 import edu.berkeley.nlp.lm.array.CustomWidthArray;
-import edu.berkeley.nlp.lm.array.LongArray;
-import edu.berkeley.nlp.lm.bits.BitList;
-import edu.berkeley.nlp.lm.bits.BitStream;
 import edu.berkeley.nlp.lm.bits.BitUtils;
-import edu.berkeley.nlp.lm.collections.Indexer;
-import edu.berkeley.nlp.lm.collections.LongToIntHashMap;
-import edu.berkeley.nlp.lm.collections.LongToIntHashMap.Entry;
 import edu.berkeley.nlp.lm.map.NgramMap;
-import edu.berkeley.nlp.lm.util.Logger;
-import edu.berkeley.nlp.lm.util.LongRef;
 import edu.berkeley.nlp.lm.util.Annotations.OutputParameter;
-import edu.berkeley.nlp.lm.util.Annotations.PrintMemoryCount;
 
 public final class UnrankedUncompressedProbBackoffValueContainer implements ProbBackoffValueContainer
 {

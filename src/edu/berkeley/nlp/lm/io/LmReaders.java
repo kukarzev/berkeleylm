@@ -3,8 +3,6 @@ package edu.berkeley.nlp.lm.io;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
-
 import edu.berkeley.nlp.lm.ArrayEncodedNgramLanguageModel;
 import edu.berkeley.nlp.lm.ArrayEncodedProbBackoffLm;
 import edu.berkeley.nlp.lm.ConfigOptions;
